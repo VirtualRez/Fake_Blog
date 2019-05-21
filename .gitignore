@@ -1,6 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
+/e2e
+/src
 /dist
 /tmp
 /out-tsc
@@ -9,6 +11,15 @@
 
 # dependencies
 /node_modules
+
+# Archivos código fuente
+.editorconfig
+angular.json
+package-lock.json
+package.json
+README.md
+tsconfig.json
+tslint.json
 
 # profiling files
 chrome-profiler-events.json
