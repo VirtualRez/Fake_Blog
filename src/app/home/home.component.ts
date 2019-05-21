@@ -13,15 +13,15 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
   timeConverter(date){
-    var a = new Date(date * 1000);
-    var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-    var year = a.getFullYear();
-    var month = months[a.getMonth()];
-    var date = a.getDate();
-    var hour = a.getHours();
-    var min = a.getMinutes();
-    var sec = a.getSeconds();
-    var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
+    var a:any = new Date(date * 1000);
+    var months:any = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var year:any = a.getFullYear();
+    var month:any = months[a.getMonth()];
+    var date:any = a.getDate();
+    var hour:any = a.getHours();
+    var min:any = a.getMinutes();
+    var sec:any = a.getSeconds();
+    var time:any = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
     return time;
   }
 
