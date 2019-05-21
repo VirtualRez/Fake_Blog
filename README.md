@@ -1,6 +1,11 @@
-# Blog
+# Fake Blog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+
+## About this project
+
+I have made a fake Home and Detail of a blog page. The sources of the articles and images extracted from: https://sneeit.com/spotdummy-blogger-demo-data-generator-for-template-developers/
+After get the information i made an Object with all the information: autor, date, article, img, etc... and use SPA dinamics and 2way binding to finish the web.
 
 ## Development server
 
