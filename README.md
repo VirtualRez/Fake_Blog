@@ -1,6 +1,7 @@
 # Fake Blog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+Also use Bootstrap, JS and SCSS.
 
 ## About this project
 
